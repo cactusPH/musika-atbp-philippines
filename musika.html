@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MUSIKA ATBP. PHILIPPINES</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+    <style>
+        /* Inline CSS for this page */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+
+        header {
+            background-color: #d32f2f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .artists, .albums {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .artist, .album {
+            background-color: #333;
+            border-radius: 8px;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .artist:hover, .album:hover {
+            transform: scale(1.05);
+        }
+
+        .artist img, .album img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MUSIKA ATBP. PHILIPPINES</h1>
+        <p>Your Ultimate Music Destination in the Philippines</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#artists">Artists</a>
+        <a href="#albums">Albums</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h2>Welcome to MUSIKA ATBP. PHILIPPINES!</h2>
+            <p>Explore the best music, artists, albums, and events in the Philippines. We celebrate the diversity and rich culture of Filipino music. Whether you're into traditional, pop, indie, or hip hop, there's something here for everyone.</p>
+        </section>
+
+        <section id="artists">
+            <h2>Featured Artists</h2>
+            <div class="artists">
+                <!-- Artist 1 -->
+                <div class="artist">
+                    <img src="https://via.placeholder.com/250" alt="Artist Image">
+                    <h3>Ben&Ben</h3>
+                    <p>One of the most popular folk-pop bands in the Philippines.</p>
+                </div>
+                <!-- Artist 2 -->
+                <div class="artist">
+                    <img src="https://via.placeholder.com/250" alt="Artist Image">
+                    <h3>SB19</h3>
+                    <p>A Filipino boy band known for their catchy songs and strong performances.</p>
+                </div>
+                <!-- Artist 3 -->
+                <div class="artist">
+                    <img src="https://via.placeholder.com/250" alt="Artist Image">
+                    <h3>Aegis</h3>
+                    <p>Famous for their powerful ballads and unforgettable rock hits.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="albums">
+            <h2>Latest Albums</h2>
+            <div class="albums">
+                <!-- Album 1 -->
+                <div class="album">
+                    <img src="https://via.placeholder.com/250" alt="Album Image">
+                    <h3>Album Title 1</h3>
+                    <p>By Artist Name</p>
+                </div>
+                <!-- Album 2 -->
+                <div class="album">
+                    <img src="https://via.placeholder.com/250" alt="Album Image">
+                    <h3>Album Title 2</h3>
+                    <p>By Artist Name</p>
+                </div>
+                <!-- Album 3 -->
+                <div class="album">
+                    <img src="https://via.placeholder.com/250" alt="Album Image">
+                    <h3>Album Title 3</h3>
+                    <p>By Artist Name</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <p>Stay tuned for concerts, music festivals, and more happening across the Philippines!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MUSIKA ATBP. PHILIPPINES | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
